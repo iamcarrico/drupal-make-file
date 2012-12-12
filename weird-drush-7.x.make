@@ -21,8 +21,47 @@ api = 2
 projects[drupal][version] = 7
 
 
-; Modules
+; Modules / Themes
 ; --------
+; All modules and themes are organized into their own sections. All contributed
+; modules are put into the "contrib" subdirectory.
+
+
+; Administration
+projects[admin_menu][subdir] = "contrib"
+projects[module_filter][subdir] = "contrib"
+
+
+; Design / Theming
+projects[] = aurora
+projects[borealis][subdir] = "contrib"
+projects[fences][subdir] = "contrib"
+projects[field_formatter_settings][subdir] = "contrib"
+projects[menu_attributes][subdir] = "contrib"
+projects[modernizr][subdir] = "contrib"
+projects[panels_extra_styles][subdir] = "contrib"
+projects[respondjs][subdir] = "contrib"
+projects[styleguide][subdir] = "contrib"
+
+
+; Development
+projects[devel][subdir] = "contrib"
+projects[devel_themer][subdir] = "contrib"
+projects[simplehtmldom][subdir] = "contrib"
+projects[coder][subdir] = "contrib"
+
+
+; Email
+projects[mailsystem][subdir] = "contrib"
+projects[mimemail][subdir] = "contrib"
+projects[phpmailer][subdir] = "contrib"
+
+
+; Features
+projects[features][subdir] = "contrib"
+projects[ctools][subdir] = "contrib"
+projects[strongarm][subdir] = "contrib"
+
 
 ; Fields
 projects[insert][subdir] = "contrib"
@@ -37,17 +76,20 @@ projects[field_collection][subdir] = "contrib"
 projects[video_embed_field][subdir] = "contrib"
 
 
-; Development
-projects[devel][subdir] = "contrib"
-projects[devel_themer][subdir] = "contrib"
-projects[simplehtmldom][subdir] = "contrib"
-projects[coder][subdir] = "contrib"
+; Other
+projects[entity][subdir] = "contrib"
+projects[libraries][subdir] = "contrib"
+projects[login_destination][subdir] = "contrib"
+projects[email_registration][subdir] = "contrib"
+projects[realname][subdir] = "contrib"
+projects[variable][subdir] = "contrib"
+projects[sshkey][subdir] = "contrib"
 
 
-; Administration
-projects[admin_menu][subdir] = "contrib"
-projects[module_filter][subdir] = contrib
-;	better_exposed_filters?
+; Panels
+projects[panels][subdir] = "contrib"
+projects[panelizer][subdir] = "contrib"
+projects[panels_everywhere][subdir] = "contrib"
 
 
 ; SEO
@@ -60,58 +102,17 @@ projects[xmlsitemap][subdir] = "contrib"
 projects[google_analytics][subdir] = "contrib"
 
 
-; Email
-projects[mailsystem][subdir] = "contrib"
-projects[mimemail][subdir] = "contrib"
-projects[phpmailer][subdir] = "contrib"
-
-
 ; Site Building
 projects[pathauto][subdir] = "contrib"
 projects[subpathauto][subdir] = "contrib"
 projects[nodequeue][subdir] = "contrib"
 projects[token][subdir] = "contrib"
-projects[views][subdir] = "contrib"
 projects[manual-crop][subdir] = "contrib"
 
 
-; Design / Theming
-projects[borealis][subdir] = contrib
-projects[fences][subdir] = contrib
-projects[field_formatter_settings][subdir] = contrib
-projects[menu_attributes][subdir] = contrib
-projects[modernizr][subdir] = contrib
-projects[panels_extra_styles][subdir] = contrib
-projects[respondjs][subdir] = contrib
-projects[styleguide][subdir] = contrib
-
-
-; Panels
-projects[panels][subdir] = "contrib"
-projects[panelizer][subdir] = "contrib"
-projects[panels_everywhere][subdir] = "contrib"
-
-
-; Features
-projects[features][subdir] = "contrib"
-projects[ctools][subdir] = "contrib"
-projects[strongarm][subdir] = "contrib"
-
-
-; Other
-projects[entity][subdir] = "contrib"
-projects[libraries][subdir] = "contrib"
-projects[login_destination][subdir] = "contrib"
-projects[email_registration][subdir] = "contrib"
-projects[realname][subdir] = "contrib"
-projects[variable][subdir] = "contrib"
-
-
-
-; Themes
-; --------
-projects[] = aurora
-
+; Views
+projects[views][subdir] = "contrib"
+projects[better_exposed_filters][subdir] = "contrib"
 
 
 ; Libraries
