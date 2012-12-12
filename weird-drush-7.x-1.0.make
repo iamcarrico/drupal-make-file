@@ -61,7 +61,6 @@ projects[google_analytics][subdir] = "contrib"
 
 
 ; Email
-projects[smtp][subdir] = "contrib"
 projects[mailsystem][subdir] = "contrib"
 projects[mimemail][subdir] = "contrib"
 projects[phpmailer][subdir] = "contrib"
