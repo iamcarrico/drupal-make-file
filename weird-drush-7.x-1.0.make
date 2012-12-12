@@ -91,7 +91,6 @@ projects[styleguide][subdir] = contrib
 projects[panels][subdir] = "contrib"
 projects[panelizer][subdir] = "contrib"
 projects[panels_everywhere][subdir] = "contrib"
-projects[panels][subdir] = "contrib"
 
 
 ; Features
