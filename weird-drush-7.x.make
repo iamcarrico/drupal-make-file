@@ -25,7 +25,8 @@ projects[drupal][version] = 7
 ; Modules / Themes
 ; --------
 ; All modules and themes are organized into their own sections. All contributed
-; modules are put into the contrib subdirectory.
+; modules are put into the contrib subdirectory. Each module that has a
+; corresponding library is added as well.
 
 
 ; Administration
@@ -41,10 +42,19 @@ projects[jquery_update][version] = 2.x-dev
 projects[fences][subdir] = contrib
 projects[field_formatter_settings][subdir] = contrib
 projects[menu_attributes][subdir] = contrib
-projects[modernizr][subdir] = contrib
 projects[panels_extra_styles][subdir] = contrib
-projects[respondjs][subdir] = contrib
 projects[styleguide][subdir] = contrib
+
+projects[modernizr][subdir] = contrib
+libraries[modernizr][download][type] = file
+libraries[modernizr][download][url] = http://modernizr.com/downloads/modernizr-latest.js
+libraries[modernizr][download][filename] = modernizr.min.js
+libraries[modernizr][destination] = libraries
+
+projects[respondjs][subdir] = contrib
+libraries[respondjs][download][type] = file
+libraries[respondjs][download][url] = https://raw.github.com/scottjehl/Respond/master/respond.min.js
+libraries[respondjs][destination] = libraries
 
 
 ; Development
@@ -58,6 +68,9 @@ projects[coder][subdir] = contrib
 projects[mailsystem][subdir] = contrib
 projects[mimemail][subdir] = contrib
 projects[phpmailer][subdir] = contrib
+libraries[phpmailer][download][type] = get
+libraries[phpmailer][download][url] = http://phpmailer.apache-extras.org.codespot.com/files/PHPMailer_5.2.2.tgz
+libraries[phpmailer][destination] = libraries
 
 
 ; Features
@@ -113,16 +126,12 @@ projects[token][subdir] = contrib
 projects[manual-crop][subdir] = contrib
 
 
+; Social Media
+projects[oauth][subdir] = contrib
+projects[twitter][subdir] = contrib
+
+
 ; Views
 projects[views][subdir] = contrib
 projects[better_exposed_filters][subdir] = contrib
-
-
-; Libraries
-; ---------
-libraries[phpmailer][download][type] = get
-libraries[phpmailer][download][url] = http://phpmailer.apache-extras.org.codespot.com/files/PHPMailer_5.2.2.tgz
-libraries[phpmailer][destination] = libraries
-
-
 
