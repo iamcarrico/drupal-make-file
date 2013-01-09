@@ -100,6 +100,7 @@ projects[email_registration][subdir] = contrib
 projects[realname][subdir] = contrib
 projects[variable][subdir] = contrib
 projects[sshkey][subdir] = contrib
+projects[advanced_help][subdir] = contrib
 
 
 ; Panels
