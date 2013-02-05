@@ -125,6 +125,11 @@ projects[subpathauto][subdir] = contrib
 projects[nodequeue][subdir] = contrib
 projects[token][subdir] = contrib
 projects[manual-crop][subdir] = contrib
+projects[ckeditor][subdir] = contrib
+
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.tar.gz
+libraries[ckeditor][destination] = libraries
 
 
 ; Social Media
