@@ -51,11 +51,6 @@ libraries[modernizr][download][url] = http://modernizr.com/downloads/modernizr-l
 libraries[modernizr][download][filename] = modernizr.min.js
 libraries[modernizr][destination] = libraries
 
-projects[respondjs][subdir] = contrib
-libraries[respondjs][download][type] = file
-libraries[respondjs][download][url] = https://raw.github.com/scottjehl/Respond/master/respond.min.js
-libraries[respondjs][destination] = libraries
-
 
 ; Development
 projects[devel][subdir] = contrib
