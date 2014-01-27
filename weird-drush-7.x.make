@@ -101,7 +101,6 @@ projects[advanced_help][subdir] = contrib
 ; Panels
 projects[panels][subdir] = contrib
 projects[panelizer][subdir] = contrib
-projects[panels_everywhere][subdir] = contrib
 
 
 ; SEO
@@ -119,7 +118,7 @@ projects[pathauto][subdir] = contrib
 projects[subpathauto][subdir] = contrib
 projects[nodequeue][subdir] = contrib
 projects[token][subdir] = contrib
-projects[manual-crop][subdir] = contrib
+projects[image_focus][subdir] = contrib
 projects[ckeditor][subdir] = contrib
 
 libraries[ckeditor][download][type] = get
@@ -135,4 +134,3 @@ projects[twitter][subdir] = contrib
 ; Views
 projects[views][subdir] = contrib
 projects[better_exposed_filters][subdir] = contrib
-
